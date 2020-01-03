@@ -1,0 +1,31 @@
+.chatbotButton{
+    z-index:9999;
+    position: fixed;
+    bottom:5px;
+    height: 75px;
+    width: 75px;
+    background-color: white;
+    border:3px solid #25d366;
+    border-radius: 50%;
+    right:5px;
+    cursor: pointer;
+}
+.chatbotButtonHidden{
+    visibility: hidden;
+}
+.backToTopChat{
+    z-index:9999;
+    position: fixed;
+    bottom:5px;
+    font-size: 0.8rem;
+    right:20px;
+}
+.backToTopChatHidden{
+    visibility: hidden;
+}
+.chatbotButton img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
